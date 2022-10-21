@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100&family=Cookie&family=Dancing+Script&family=Gentium+Book+Plus:ital@0;1&family=Gulzar&family=Lobster&family=Murecho:wght@100&family=Pacifico&family=Padauk&family=Parisienne&family=Poppins:wght@500&family=Tiro+Tamil&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="blur">
+        <div class="navbar">
+          <div class="navbar-child">
+            <div class="logo">
+              <a href="#">
+                <img src="./Assets/logo1.png" alt="" />
+              </a>
+              <h3>Super Shinwari</h3>
+            </div>
+
+            <button class="toggle-icon">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+
+        <section class="home-section">
+          <div class="home-text">
+            <h1>Super Shinwari Restaurant</h1>
+
+            <p class="white">Bringing Good Taste To Life</p>
+
+            <a href="" class="btn">our menu</a>
+          </div>
+        </section>
+      </div>
+      <div class="middle-section">
+        <section class="about-section middle-section-padding">
+          <div class="width-container">
+            <div class="section-title">
+              <p>Our story</p>
+              <h2 class="white">About Us</h2>
+            </div>
+            <div class="section-content">
+              <div class="welcome-shinwari">
+                <h3>Welcome To Super Shinwari</h3>
+                <p>
+                  Located in the heart of Latifabad, Super Shinwari offers you
+                  an exquisite desi dining experience. Enjoy the authentic and
+                  delicous desi cuisine made with the best blend of spices,
+                  perfectly curated to revitalize your barbecue and karahi
+                  experience, leaving you hungry for more!
+                </p>
+                <a href="" class="btn"> check our menu</a>
+              </div>
+              <div class="about-img">
+                <img src="./Assets/about-img.jpg" alt="" />
+                <h3>10+ years experience</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="menu-section middle-section-padding">
+          <div class="width-container">
+            <div class="menu-container">
+              <div class="section-title">
+                <p>Order Now</p>
+                <h2 class="white">Our Menu</h2>
+              </div>
+
+              <div class="menu-tabs">
+                <ul>
+                  <li>
+                    <button class="active" data-target="#bbq">BBQ</button>
+                  </li>
+                  <li><button data-target="#chicken-btn">chicken</button></li>
+                  <li><button>mutton</button></li>
+                  <li><button>beverage</button></li>
+                </ul>
+              </div>
+              <!-- bbq -->
+              <div class="menu-tabs-content" id="bbq">
+                <div class="row1">
+                  <div class="menu-item">
+                    <div class="menu-head-title">
+                      <img src="./Assets/chicken_tikka.jpg" alt="" />
+                      <h3>Chicken Tikka</h3>
+                    </div>
+                    <div class="menu-head-price">200</div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-head-title">
+                      <img src="./Assets/ch_malai_tikka.jpg" alt="" />
+                      <h3>Chicken Malai Tikka</h3>
+                    </div>
+                    <div class="menu-head-price">200</div>
+                  </div>
+                </div>
+                <div class="row1">
+                  <div class="menu-item">
+                    <div class="menu-head-title">
+                      <img src="./Assets/ch_green_tikka.jpg" alt="" />
+                      <h3>Chicken Green Tikka</h3>
+                    </div>
+                    <div class="menu-head-price">200</div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-head-title">
+                      <img src="./Assets/malai_boti.jpg" alt="" />
+                      <h3>Malai Boti</h3>
+                    </div>
+                    <div class="menu-head-price">200</div>
+                  </div>
+                </div>
+                <div class="row1">
+                  <div class="menu-item">
+                    <div class="menu-head-title">
+                      <img src="./Assets/green_boti.jpg" alt="" />
+                      <h3>Green Boti</h3>
+                    </div>
+                    <div class="menu-head-price">200</div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-head-title">
+                      <img src="./Assets/rehsmi_kabab.jpg" alt="" />
+                      <h3>Reshmi Kabab</h3>
+                    </div>
+                    <div class="menu-head-price">200</div>
+                  </div>
+                </div>
+              </div>
+              <!-- chicken -->
+              <!-- <div class="menu-tabs-content" id="chicken">
+              <div class="row1">
+                <div class="menu-item">
+                  <div class="menu-head-title">
+                    <img src="./Assets/chicken_tikka.jpg" alt="" />
+                    <h3>Arshia Tikka</h3>
+                  </div>
+                  <div class="menu-head-price">200</div>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-head-title">
+                    <img src="./Assets/ch_malai_tikka.jpg" alt="" />
+                    <h3>Chicken Malai Tikka</h3>
+                  </div>
+                  <div class="menu-head-price">200</div>
+                </div>
+              </div>
+              <div class="row1">
+                <div class="menu-item">
+                  <div class="menu-head-title">
+                    <img src="./Assets/ch_green_tikka.jpg" alt="" />
+                    <h3>Chicken Green Tikka</h3>
+                  </div>
+                  <div class="menu-head-price">200</div>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-head-title">
+                    <img src="./Assets/malai_boti.jpg" alt="" />
+                    <h3>Malai Boti</h3>
+                  </div>
+                  <div class="menu-head-price">200</div>
+                </div>
+              </div>
+              <div class="row1">
+                <div class="menu-item">
+                  <div class="menu-head-title">
+                    <img src="./Assets/green_boti.jpg" alt="" />
+                    <h3>Green Boti</h3>
+                  </div>
+                  <div class="menu-head-price">200</div>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-head-title">
+                    <img src="./Assets/rehsmi_kabab.jpg" alt="" />
+                    <h3>Reshmi Kabab</h3>
+                  </div>
+                  <div class="menu-head-price">200</div>
+                </div>
+              </div>
+            </div> -->
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="feedback-section middle-section-padding">
+            <div class="width-container">
+              <div class="menu-container">
+                <div class="section-title">
+                  <p>testimonials</p>
+                  <h2 class="white">some feedbacks</h2>
+                </div>
+                <div class="cards-container">
+                  <div class="cards">
+                    <div class="author-head">
+                      <div class="author-name">
+                        <h3>Hasnain Mari</h3>
+                      </div>
+                      <div class="author-img">
+                        <img src="./Assets/author1.jpg" alt="" />
+                      </div>
+                    </div>
+
+                    <p>
+                      Tried their Mutton Karahi & it was the best I ever had.
+                      Highly recommended
+                    </p>
+                    <div class="ratings">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="cards">
+                    <div class="author-head">
+                      <div class="author-name">
+                        <h3>Mansoor Mahar</h3>
+                      </div>
+                      <div class="author-img">
+                        <img src="./Assets/author2.jpg" alt="" />
+                      </div>
+                    </div>
+
+                    <p>
+                      Excellent food. Menu is extensive and seasonal to a
+                      particularly high standard.
+                    </p>
+                    <div class="ratings">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="cards">
+                    <div class="author-head">
+                      <div class="author-name">
+                        <h3>M. Shareef</h3>
+                      </div>
+                      <div class="author-img">
+                        <img src="./Assets/author3.jpg" alt="" />
+                      </div>
+                    </div>
+
+                    <p>
+                      This place knows how to satisfy their clients. The food is
+                      affordably priced, always delicious and clean.
+                    </p>
+                    <div class="ratings">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section>
+        <div class="chefs-section middle-section-padding">
+          <div class="width-container">
+          <div class="menu-container">
+            <div class="section-title">
+              <p>Team</p>
+              <h2 class="white">our chefs</h2>
+            </div>
+            <div class="team-content-main">
+              <div class="team-items">
+                <img src="./Assets/team1.jpg" alt="" />
+                <div class="team-content">
+                  <h3>Ali Rajput</h3>
+                  <p>Head Chef</p>
+                </div>
+              </div>
+              <div class="team-items">
+                <img src="./Assets/team2.jpg" alt="" />
+                <div class="team-content">
+                  <h3>Rana Kashif</h3>
+                  <p>BBQ Expert</p>
+                </div>
+              </div>
+              <div class="team-items last-child">
+                <img src="./Assets/team3.jpg" alt="" />
+                <div class="team-content">
+                  <h3>Sohail Khan</h3>
+                  <p>Karahi Expert</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <footer class="footer middle-section-padding">
+        <div class="blur-footer">
+          <div class="footer-content">
+            <div class="footer-info">
+              <div class="footer-info-item">
+                <h3>our location</h3>
+                <ul>
+                  <li>Near Post Office,</li>
+                  <li>Unit # 7, Latifabad,</li>
+                  <li>Hyderabad.</li>
+                </ul>
+              </div>
+              <div class="footer-info-item">
+                <h3>opening hours</h3>
+                <ul>
+                  <li>Monday to Sunday</li>
+                  <li>11:00 AM - 12:00 AM</li>
+                </ul>
+              </div>
+              <div class="footer-info-item">
+                <h3>contact us</h3>
+                <ul>
+                  <li>0344 8317707</li>
+                  <li>ssr@gmail.com</li>
+                </ul>
+                <div class="social-links">
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">© 2021 - Designed by Arsalan Ali</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
